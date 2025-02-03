@@ -1,11 +1,12 @@
 export const languages = {
   en: "English",
+  de: "Deutsch",
   zh: "简体中文",
 }
 
 export const defaultLang = "en"
 
-export const langs = ["en", "zh"]
+export const langs = ["en", "de", "zh"]
 
 export const ui = {
   en: {
@@ -16,6 +17,17 @@ export const ui = {
     "blog.latest": "Latest Posts",
     "archive.title": "All Posts",
     "links.title": "My Friends",
+    "tag.title": "Tag:",
+    "tag.no_posts": "No posts found for tag",
+  },
+    de: {
+    "nav.home": "Start",
+    "nav.archive": "Archiv",
+    "nav.about": "Über uns",
+    "nav.links": "Links",
+    "blog.latest": "Letzte Einträge",
+    "archive.title": "Alle Einträge",
+    "links.title": "Meine Freunde",
     "tag.title": "Tag:",
     "tag.no_posts": "No posts found for tag",
   },
